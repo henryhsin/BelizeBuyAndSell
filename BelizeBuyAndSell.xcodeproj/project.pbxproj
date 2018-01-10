@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D141788A6E15B9FEAD5EE31 /* Pods_BelizeBuyAndSellTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE1399B2A918170D59E3A4F /* Pods_BelizeBuyAndSellTests.framework */; };
+		2D7D48FA03247E1056565A64 /* Pods_BelizeBuyAndSellUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A860F0DEE2448A50BCA4A09 /* Pods_BelizeBuyAndSellUITests.framework */; };
+		84BB626CB5C546E2A0124DFC /* Pods_BelizeBuyAndSell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB14D33FD294A6EFE4520C47 /* Pods_BelizeBuyAndSell.framework */; };
+		C0601EC020006218004DFB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EBF20006218004DFB84 /* AppDelegate.swift */; };
+		C0601EC520006218004DFB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0601EC320006218004DFB84 /* Main.storyboard */; };
+		C0601EC720006218004DFB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0601EC620006218004DFB84 /* Assets.xcassets */; };
+		C0601ECA20006218004DFB84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0601EC820006218004DFB84 /* LaunchScreen.storyboard */; };
+		C0601ED520006218004DFB84 /* BelizeBuyAndSellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601ED420006218004DFB84 /* BelizeBuyAndSellTests.swift */; };
+		C0601EE020006218004DFB84 /* BelizeBuyAndSellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EDF20006218004DFB84 /* BelizeBuyAndSellUITests.swift */; };
+		C0601EF02000630C004DFB84 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EEF2000630C004DFB84 /* BasicCell.swift */; };
+		C0601EF220006333004DFB84 /* MainLogInCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EF120006333004DFB84 /* MainLogInCell.swift */; };
+		C0601EF620006E29004DFB84 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C0601EF520006E29004DFB84 /* GoogleService-Info.plist */; };
+		C0601EF820028CC0004DFB84 /* MainLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EF720028CC0004DFB84 /* MainLogInViewController.swift */; };
+		C0601EFC20028E43004DFB84 /* EMailLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EFB20028E43004DFB84 /* EMailLogInViewController.swift */; };
+		C0601EFE20028E75004DFB84 /* EMailLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EFD20028E75004DFB84 /* EMailLogInView.swift */; };
+		C0601F0020028E8B004DFB84 /* BasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601EFF20028E8B004DFB84 /* BasicView.swift */; };
+		C0601F0220029631004DFB84 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0601F0120029631004DFB84 /* Extension.swift */; };
+		C0AD24C32005208C0080A2AB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24C22005208C0080A2AB /* MainViewController.swift */; };
+		C0AD24C5200528A20080A2AB /* BrowseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24C4200528A20080A2AB /* BrowseCell.swift */; };
+		C0AD24C7200529A40080A2AB /* BannerCellInBrowseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24C6200529A40080A2AB /* BannerCellInBrowseCell.swift */; };
+		C0AD24C9200529DB0080A2AB /* ItemSpeciesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24C8200529DB0080A2AB /* ItemSpeciesCell.swift */; };
+		C0AD24CD20052B370080A2AB /* BannerViewCellInBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24CC20052B370080A2AB /* BannerViewCellInBannerCell.swift */; };
+		C0AD24DD200574220080A2AB /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24DC200574220080A2AB /* MainTabBarView.swift */; };
+		C0AD24DF200574940080A2AB /* MainTabBarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24DE200574940080A2AB /* MainTabBarCell.swift */; };
+		C0AD24E1200673D90080A2AB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AD24E0200673D90080A2AB /* TestViewController.swift */; };
+		C0EA83172002FEA200FC2274 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EA83162002FEA200FC2274 /* Constant.swift */; };
+		C0F45A8A20040E880095D945 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F45A8920040E880095D945 /* LogInViewController.swift */; };
+		C0F45A8C20040F050095D945 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F45A8B20040F050095D945 /* LogInView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0601ED120006218004DFB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0601EB420006218004DFB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0601EBB20006218004DFB84;
+			remoteInfo = BelizeBuyAndSell;
+		};
+		C0601EDC20006218004DFB84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0601EB420006218004DFB84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0601EBB20006218004DFB84;
+			remoteInfo = BelizeBuyAndSell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A2A7AD973BC5977B004044 /* Pods-BelizeBuyAndSell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSell/Pods-BelizeBuyAndSell.debug.xcconfig"; sourceTree = "<group>"; };
+		1AE1399B2A918170D59E3A4F /* Pods_BelizeBuyAndSellTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BelizeBuyAndSellTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A860F0DEE2448A50BCA4A09 /* Pods_BelizeBuyAndSellUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BelizeBuyAndSellUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EA0B561440493D74D0FC19 /* Pods-BelizeBuyAndSellUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSellUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSellUITests/Pods-BelizeBuyAndSellUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0601EBC20006218004DFB84 /* BelizeBuyAndSell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BelizeBuyAndSell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0601EBF20006218004DFB84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0601EC420006218004DFB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0601EC620006218004DFB84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0601EC920006218004DFB84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0601ECB20006218004DFB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0601ED020006218004DFB84 /* BelizeBuyAndSellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelizeBuyAndSellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0601ED420006218004DFB84 /* BelizeBuyAndSellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelizeBuyAndSellTests.swift; sourceTree = "<group>"; };
+		C0601ED620006218004DFB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0601EDB20006218004DFB84 /* BelizeBuyAndSellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BelizeBuyAndSellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0601EDF20006218004DFB84 /* BelizeBuyAndSellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BelizeBuyAndSellUITests.swift; sourceTree = "<group>"; };
+		C0601EE120006218004DFB84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0601EEF2000630C004DFB84 /* BasicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		C0601EF120006333004DFB84 /* MainLogInCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogInCell.swift; sourceTree = "<group>"; };
+		C0601EF520006E29004DFB84 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C0601EF720028CC0004DFB84 /* MainLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogInViewController.swift; sourceTree = "<group>"; };
+		C0601EFB20028E43004DFB84 /* EMailLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMailLogInViewController.swift; sourceTree = "<group>"; };
+		C0601EFD20028E75004DFB84 /* EMailLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EMailLogInView.swift; sourceTree = "<group>"; };
+		C0601EFF20028E8B004DFB84 /* BasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicView.swift; sourceTree = "<group>"; };
+		C0601F0120029631004DFB84 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		C0AD24C22005208C0080A2AB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C0AD24C4200528A20080A2AB /* BrowseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCell.swift; sourceTree = "<group>"; };
+		C0AD24C6200529A40080A2AB /* BannerCellInBrowseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCellInBrowseCell.swift; sourceTree = "<group>"; };
+		C0AD24C8200529DB0080A2AB /* ItemSpeciesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSpeciesCell.swift; sourceTree = "<group>"; };
+		C0AD24CC20052B370080A2AB /* BannerViewCellInBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewCellInBannerCell.swift; sourceTree = "<group>"; };
+		C0AD24DC200574220080A2AB /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		C0AD24DE200574940080A2AB /* MainTabBarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarCell.swift; sourceTree = "<group>"; };
+		C0AD24E0200673D90080A2AB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		C0EA83162002FEA200FC2274 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		C0F45A8920040E880095D945 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C0F45A8B20040F050095D945 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		CC144F531833F95F163C0FA4 /* Pods-BelizeBuyAndSellUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSellUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSellUITests/Pods-BelizeBuyAndSellUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4807023750EF605A133F4A5 /* Pods-BelizeBuyAndSell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSell.release.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSell/Pods-BelizeBuyAndSell.release.xcconfig"; sourceTree = "<group>"; };
+		D77366877679CC7EB3E3347F /* Pods-BelizeBuyAndSellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSellTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSellTests/Pods-BelizeBuyAndSellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E8828CE96DE2FE0E66EF5504 /* Pods-BelizeBuyAndSellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BelizeBuyAndSellTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BelizeBuyAndSellTests/Pods-BelizeBuyAndSellTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB14D33FD294A6EFE4520C47 /* Pods_BelizeBuyAndSell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BelizeBuyAndSell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0601EB920006218004DFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB626CB5C546E2A0124DFC /* Pods_BelizeBuyAndSell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ECD20006218004DFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D141788A6E15B9FEAD5EE31 /* Pods_BelizeBuyAndSellTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ED820006218004DFB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7D48FA03247E1056565A64 /* Pods_BelizeBuyAndSellUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3807C02F4B63C5939B4DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06A2A7AD973BC5977B004044 /* Pods-BelizeBuyAndSell.debug.xcconfig */,
+				D4807023750EF605A133F4A5 /* Pods-BelizeBuyAndSell.release.xcconfig */,
+				D77366877679CC7EB3E3347F /* Pods-BelizeBuyAndSellTests.debug.xcconfig */,
+				E8828CE96DE2FE0E66EF5504 /* Pods-BelizeBuyAndSellTests.release.xcconfig */,
+				CC144F531833F95F163C0FA4 /* Pods-BelizeBuyAndSellUITests.debug.xcconfig */,
+				60EA0B561440493D74D0FC19 /* Pods-BelizeBuyAndSellUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0601EB320006218004DFB84 = {
+			isa = PBXGroup;
+			children = (
+				C0601EBE20006218004DFB84 /* BelizeBuyAndSell */,
+				C0601ED320006218004DFB84 /* BelizeBuyAndSellTests */,
+				C0601EDE20006218004DFB84 /* BelizeBuyAndSellUITests */,
+				C0601EBD20006218004DFB84 /* Products */,
+				9A3807C02F4B63C5939B4DD5 /* Pods */,
+				FDBA5078C977C047CAEC0742 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0601EBD20006218004DFB84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0601EBC20006218004DFB84 /* BelizeBuyAndSell.app */,
+				C0601ED020006218004DFB84 /* BelizeBuyAndSellTests.xctest */,
+				C0601EDB20006218004DFB84 /* BelizeBuyAndSellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0601EBE20006218004DFB84 /* BelizeBuyAndSell */ = {
+			isa = PBXGroup;
+			children = (
+				C0601EBF20006218004DFB84 /* AppDelegate.swift */,
+				C0AD24CA200529E50080A2AB /* MainLogIn */,
+				C0AD24CB20052A110080A2AB /* Main */,
+				C0601EEF2000630C004DFB84 /* BasicCell.swift */,
+				C0601EFF20028E8B004DFB84 /* BasicView.swift */,
+				C0601F0120029631004DFB84 /* Extension.swift */,
+				C0EA83162002FEA200FC2274 /* Constant.swift */,
+				C0601EC320006218004DFB84 /* Main.storyboard */,
+				C0601EC620006218004DFB84 /* Assets.xcassets */,
+				C0601EC820006218004DFB84 /* LaunchScreen.storyboard */,
+				C0601ECB20006218004DFB84 /* Info.plist */,
+				C0601EF520006E29004DFB84 /* GoogleService-Info.plist */,
+			);
+			path = BelizeBuyAndSell;
+			sourceTree = "<group>";
+		};
+		C0601ED320006218004DFB84 /* BelizeBuyAndSellTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0601ED420006218004DFB84 /* BelizeBuyAndSellTests.swift */,
+				C0601ED620006218004DFB84 /* Info.plist */,
+			);
+			path = BelizeBuyAndSellTests;
+			sourceTree = "<group>";
+		};
+		C0601EDE20006218004DFB84 /* BelizeBuyAndSellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0601EDF20006218004DFB84 /* BelizeBuyAndSellUITests.swift */,
+				C0601EE120006218004DFB84 /* Info.plist */,
+			);
+			path = BelizeBuyAndSellUITests;
+			sourceTree = "<group>";
+		};
+		C0AD24CA200529E50080A2AB /* MainLogIn */ = {
+			isa = PBXGroup;
+			children = (
+				C0F45A8920040E880095D945 /* LogInViewController.swift */,
+				C0601EF120006333004DFB84 /* MainLogInCell.swift */,
+				C0F45A8B20040F050095D945 /* LogInView.swift */,
+				C0601EFD20028E75004DFB84 /* EMailLogInView.swift */,
+				C0601EFB20028E43004DFB84 /* EMailLogInViewController.swift */,
+				C0601EF720028CC0004DFB84 /* MainLogInViewController.swift */,
+			);
+			path = MainLogIn;
+			sourceTree = "<group>";
+		};
+		C0AD24CB20052A110080A2AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD24C22005208C0080A2AB /* MainViewController.swift */,
+				C0AD24DC200574220080A2AB /* MainTabBarView.swift */,
+				C0AD24DE200574940080A2AB /* MainTabBarCell.swift */,
+				C0AD24E0200673D90080A2AB /* TestViewController.swift */,
+				C0AD24DA200573530080A2AB /* MainViewController's_Cell */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C0AD24D9200573430080A2AB /* BannerCell's_cell */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD24CC20052B370080A2AB /* BannerViewCellInBannerCell.swift */,
+				C0AD24C8200529DB0080A2AB /* ItemSpeciesCell.swift */,
+			);
+			path = "BannerCell's_cell";
+			sourceTree = "<group>";
+		};
+		C0AD24DA200573530080A2AB /* MainViewController's_Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD24C4200528A20080A2AB /* BrowseCell.swift */,
+				C0AD24DB200573890080A2AB /* BrowseCell's_cell */,
+			);
+			path = "MainViewController's_Cell";
+			sourceTree = "<group>";
+		};
+		C0AD24DB200573890080A2AB /* BrowseCell's_cell */ = {
+			isa = PBXGroup;
+			children = (
+				C0AD24C6200529A40080A2AB /* BannerCellInBrowseCell.swift */,
+				C0AD24D9200573430080A2AB /* BannerCell's_cell */,
+			);
+			path = "BrowseCell's_cell";
+			sourceTree = "<group>";
+		};
+		FDBA5078C977C047CAEC0742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB14D33FD294A6EFE4520C47 /* Pods_BelizeBuyAndSell.framework */,
+				1AE1399B2A918170D59E3A4F /* Pods_BelizeBuyAndSellTests.framework */,
+				5A860F0DEE2448A50BCA4A09 /* Pods_BelizeBuyAndSellUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0601EBB20006218004DFB84 /* BelizeBuyAndSell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0601EE420006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSell" */;
+			buildPhases = (
+				DF6973BC89B7BF10FA55DDBC /* [CP] Check Pods Manifest.lock */,
+				C0601EB820006218004DFB84 /* Sources */,
+				C0601EB920006218004DFB84 /* Frameworks */,
+				C0601EBA20006218004DFB84 /* Resources */,
+				A7C58DD5CB08564A65E01753 /* [CP] Embed Pods Frameworks */,
+				9430842099EC38C611996F33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BelizeBuyAndSell;
+			productName = BelizeBuyAndSell;
+			productReference = C0601EBC20006218004DFB84 /* BelizeBuyAndSell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0601ECF20006218004DFB84 /* BelizeBuyAndSellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0601EE720006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSellTests" */;
+			buildPhases = (
+				AECFE49B0085A5B642B0A333 /* [CP] Check Pods Manifest.lock */,
+				C0601ECC20006218004DFB84 /* Sources */,
+				C0601ECD20006218004DFB84 /* Frameworks */,
+				C0601ECE20006218004DFB84 /* Resources */,
+				D53B59F7E4FEC578CB7C967E /* [CP] Embed Pods Frameworks */,
+				2F0AF5D05BBFBB12129875B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0601ED220006218004DFB84 /* PBXTargetDependency */,
+			);
+			name = BelizeBuyAndSellTests;
+			productName = BelizeBuyAndSellTests;
+			productReference = C0601ED020006218004DFB84 /* BelizeBuyAndSellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0601EDA20006218004DFB84 /* BelizeBuyAndSellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0601EEA20006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSellUITests" */;
+			buildPhases = (
+				92D3C3E7840E1C1AA91FE441 /* [CP] Check Pods Manifest.lock */,
+				C0601ED720006218004DFB84 /* Sources */,
+				C0601ED820006218004DFB84 /* Frameworks */,
+				C0601ED920006218004DFB84 /* Resources */,
+				D7B6CF4F4E80A18C38A5402F /* [CP] Embed Pods Frameworks */,
+				49FE0D1D8F24478231B03598 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0601EDD20006218004DFB84 /* PBXTargetDependency */,
+			);
+			name = BelizeBuyAndSellUITests;
+			productName = BelizeBuyAndSellUITests;
+			productReference = C0601EDB20006218004DFB84 /* BelizeBuyAndSellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0601EB420006218004DFB84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "辛忠翰";
+				TargetAttributes = {
+					C0601EBB20006218004DFB84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					C0601ECF20006218004DFB84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0601EBB20006218004DFB84;
+					};
+					C0601EDA20006218004DFB84 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C0601EBB20006218004DFB84;
+					};
+				};
+			};
+			buildConfigurationList = C0601EB720006218004DFB84 /* Build configuration list for PBXProject "BelizeBuyAndSell" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0601EB320006218004DFB84;
+			productRefGroup = C0601EBD20006218004DFB84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0601EBB20006218004DFB84 /* BelizeBuyAndSell */,
+				C0601ECF20006218004DFB84 /* BelizeBuyAndSellTests */,
+				C0601EDA20006218004DFB84 /* BelizeBuyAndSellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0601EBA20006218004DFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0601EF620006E29004DFB84 /* GoogleService-Info.plist in Resources */,
+				C0601ECA20006218004DFB84 /* LaunchScreen.storyboard in Resources */,
+				C0601EC720006218004DFB84 /* Assets.xcassets in Resources */,
+				C0601EC520006218004DFB84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ECE20006218004DFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ED920006218004DFB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0AF5D05BBFBB12129875B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSellTests/Pods-BelizeBuyAndSellTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49FE0D1D8F24478231B03598 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSellUITests/Pods-BelizeBuyAndSellUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D3C3E7840E1C1AA91FE441 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BelizeBuyAndSellUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9430842099EC38C611996F33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSell/Pods-BelizeBuyAndSell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C58DD5CB08564A65E01753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSell/Pods-BelizeBuyAndSell-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSell/Pods-BelizeBuyAndSell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AECFE49B0085A5B642B0A333 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BelizeBuyAndSellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D53B59F7E4FEC578CB7C967E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSellTests/Pods-BelizeBuyAndSellTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7B6CF4F4E80A18C38A5402F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BelizeBuyAndSellUITests/Pods-BelizeBuyAndSellUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF6973BC89B7BF10FA55DDBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BelizeBuyAndSell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0601EB820006218004DFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0601F0020028E8B004DFB84 /* BasicView.swift in Sources */,
+				C0AD24E1200673D90080A2AB /* TestViewController.swift in Sources */,
+				C0AD24DD200574220080A2AB /* MainTabBarView.swift in Sources */,
+				C0AD24C9200529DB0080A2AB /* ItemSpeciesCell.swift in Sources */,
+				C0AD24CD20052B370080A2AB /* BannerViewCellInBannerCell.swift in Sources */,
+				C0601EF02000630C004DFB84 /* BasicCell.swift in Sources */,
+				C0EA83172002FEA200FC2274 /* Constant.swift in Sources */,
+				C0AD24C32005208C0080A2AB /* MainViewController.swift in Sources */,
+				C0601EC020006218004DFB84 /* AppDelegate.swift in Sources */,
+				C0AD24DF200574940080A2AB /* MainTabBarCell.swift in Sources */,
+				C0601EFC20028E43004DFB84 /* EMailLogInViewController.swift in Sources */,
+				C0601EFE20028E75004DFB84 /* EMailLogInView.swift in Sources */,
+				C0AD24C7200529A40080A2AB /* BannerCellInBrowseCell.swift in Sources */,
+				C0601EF220006333004DFB84 /* MainLogInCell.swift in Sources */,
+				C0601EF820028CC0004DFB84 /* MainLogInViewController.swift in Sources */,
+				C0F45A8C20040F050095D945 /* LogInView.swift in Sources */,
+				C0AD24C5200528A20080A2AB /* BrowseCell.swift in Sources */,
+				C0F45A8A20040E880095D945 /* LogInViewController.swift in Sources */,
+				C0601F0220029631004DFB84 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ECC20006218004DFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0601ED520006218004DFB84 /* BelizeBuyAndSellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0601ED720006218004DFB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0601EE020006218004DFB84 /* BelizeBuyAndSellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0601ED220006218004DFB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0601EBB20006218004DFB84 /* BelizeBuyAndSell */;
+			targetProxy = C0601ED120006218004DFB84 /* PBXContainerItemProxy */;
+		};
+		C0601EDD20006218004DFB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0601EBB20006218004DFB84 /* BelizeBuyAndSell */;
+			targetProxy = C0601EDC20006218004DFB84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0601EC320006218004DFB84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0601EC420006218004DFB84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0601EC820006218004DFB84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0601EC920006218004DFB84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0601EE220006218004DFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0601EE320006218004DFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0601EE520006218004DFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A2A7AD973BC5977B004044 /* Pods-BelizeBuyAndSell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = BelizeBuyAndSell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0601EE620006218004DFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4807023750EF605A133F4A5 /* Pods-BelizeBuyAndSell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZY929FY943;
+				INFOPLIST_FILE = BelizeBuyAndSell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0601EE820006218004DFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D77366877679CC7EB3E3347F /* Pods-BelizeBuyAndSellTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BelizeBuyAndSellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelizeBuyAndSell.app/BelizeBuyAndSell";
+			};
+			name = Debug;
+		};
+		C0601EE920006218004DFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8828CE96DE2FE0E66EF5504 /* Pods-BelizeBuyAndSellTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BelizeBuyAndSellTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BelizeBuyAndSell.app/BelizeBuyAndSell";
+			};
+			name = Release;
+		};
+		C0601EEB20006218004DFB84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC144F531833F95F163C0FA4 /* Pods-BelizeBuyAndSellUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BelizeBuyAndSellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelizeBuyAndSell;
+			};
+			name = Debug;
+		};
+		C0601EEC20006218004DFB84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EA0B561440493D74D0FC19 /* Pods-BelizeBuyAndSellUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BelizeBuyAndSellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = coolApp.com.BelizeBuyAndSellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BelizeBuyAndSell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0601EB720006218004DFB84 /* Build configuration list for PBXProject "BelizeBuyAndSell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0601EE220006218004DFB84 /* Debug */,
+				C0601EE320006218004DFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0601EE420006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0601EE520006218004DFB84 /* Debug */,
+				C0601EE620006218004DFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0601EE720006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0601EE820006218004DFB84 /* Debug */,
+				C0601EE920006218004DFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0601EEA20006218004DFB84 /* Build configuration list for PBXNativeTarget "BelizeBuyAndSellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0601EEB20006218004DFB84 /* Debug */,
+				C0601EEC20006218004DFB84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0601EB420006218004DFB84 /* Project object */;
+}
